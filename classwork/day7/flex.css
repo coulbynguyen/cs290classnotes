@@ -1,0 +1,45 @@
+.container{
+  margin: 5px;
+  min-height: 400px;
+  padding: 10px;
+  border: 4px solid black;
+  display: flex;
+  flex-direction: row;  /*standard*/
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  font-size: 50px;
+  /*justify-content: flex-start;*/
+  /*^default value*/
+  /*justify-content: flex-end;*/
+  /*^pushes things so that they alighn with main end. not the same as row reverse*/
+  /*justify-content: center;*/
+  /*^centers the object*/
+  /*justify-content: space-between;*/
+  /*^puts space between flex items*/
+  justify-content: space-around;
+  /*^the space between all boxes will be equal*/
+  /*align-items: flex-start;*/
+  /*^default*/
+  /*align-items: flex-end;*/
+  /*^aligns the items with main end*/
+  align-items: center;
+  /*^centers all the items*/
+}
+
+.box{
+  /*flex-grow: 1;
+  flex-basis: 20%*/
+  /*flex: 1 200px;*/
+  /*this one sets the grow and the basis*/
+  /*1/5 of the space to grow*/
+  min-width: 200px;
+
+  height: 200px;
+  background-color: green;
+  border: 2px solid blue;
+
+}
+.bigger{
+  /*flex-grow: 3;*/
+}

@@ -1,0 +1,41 @@
+/*comment*/
+p { /*element selector*/
+  color: red;
+}
+
+em{
+  color: blue;
+}
+
+.first-p{/*selecting class indicators with the . operator*/
+  background-color: green;
+
+}
+
+.very-first-p{
+  font-size: 50px;
+
+}
+
+#opening-div{ /*selecting id uses # || id has more weight than class*/
+  border: solid orange 5px;
+
+}
+
+strong em{ /*em is an ancestor of the strong*/
+          /*A B = B that is an ancestor of an A*/
+          /*AB = A that is also a B*/
+          /*A>B = B that's a direct child of an A*/
+          /*A+B = B thats the next sibling after A*/
+          /*A~B = B that's a sibling after an A*/
+  text-decoration: underline;
+
+}
+/*1 = tags
+  10 = class
+  100 = ids
+  1000 = inline*/
+em .first-p {
+  background-color: yellow;
+
+}

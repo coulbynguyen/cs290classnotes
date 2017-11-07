@@ -1,0 +1,30 @@
+.outer-box{
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  border: 2px solid black;  /*default border is 0px its there but just isnt seen*/
+  margin: 10px;
+  border-radius: 10px; /*=50% makes it a circle*/
+  background-color: rgba(0, 0, 0, 0.1); /*background color goes to the border of this div*/
+  /*display: inline;*/
+}
+
+/*you cant apply width or height to inline elements*/
+/*margin and padding wont effect the height of the box itll effect the width tho*/
+/*inline elements can be changed to block elements by using the display css*/
+
+.inner-box{
+  /*max-width: 150px;*/
+  margin: 20px 30px; /*top and bottem left and right 2 value argument*/
+  padding: 5px 20px 0 100px; /*4 value argument top first then clockwise setting ie top right, bottom, left*/
+  border-left: 1px solid blue;
+  border-bottom: 5px solid red;  /*you can do this with the margin ie margin-left: as well*/
+  border-right: 1px solid blue;
+  border-top: 5px solid red;
+
+}
+
+em{
+  display: block; /*this makes the em tags get their own block*/
+  
+}

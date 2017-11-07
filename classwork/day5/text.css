@@ -1,0 +1,42 @@
+.red{
+  color: red;
+}
+
+.larger{
+  color: #ff8000;
+  font-size: 24px;
+  /*absolutely size*/
+  /*font-size: 2em; twice as big as the letter M in this fonts relative size*/
+  /*font-size: 28pt;*/
+  /*1pt = 1/72 inches absolute size*/
+  /*font-size: 25vw;*/
+  /*font-size: 25vh;*/
+}
+
+.bold{
+  font-weight:bold;
+  /*font-weight: normal; same as the bottom*/
+  /*font-weight: bold; standard bold*/
+  /*font-weight: bolder;*/
+  /*font-weight: light;*/
+  /*font-weight: lighter;*/
+  /*font-weight: 400; 400==normal /700 in arimo font depending on languages it ranges from 100-900 on the 100*/
+}
+
+.italic{
+  font-style: italic;
+}
+
+.lots-o-things{
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 1);
+  /*determine the x and y offset of the shadow the 3rd argument is bluriness and last is color*/
+  text-align: center;
+  line-height: 20px;
+}
+
+a{
+  text-decoration: none;
+
+}

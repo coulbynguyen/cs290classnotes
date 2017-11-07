@@ -1,0 +1,27 @@
+div{
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+
+}
+
+.responsive{
+  background-color: blue;
+}
+
+.nonresponsive{
+  background-color: green;
+}
+
+@media(max-width: 800px){
+  /*by default the media is the screen. media in this case is the screen*/
+  .responsive{
+    background-color: orange;
+  }
+}
+
+@media(max-width: 400px){
+  .responsive{
+    background-color: yellow;
+  }
+}

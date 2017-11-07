@@ -1,0 +1,4 @@
+A B = B that's a descendant of an A
+CSS box model
+
+Content box: controlled by 2 elements the height and the width
